@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day23-Shadows</title>
+    <style>
+        .box{
+            border: 2px solid rgb(19, 15, 13);
+            padding: 34px;
+            box-shadow: 5px 15px 5px rgb(52, 52, 50);
+        }
+        p{
+            text-shadow: 1px 1px 1px violet;
+            outline: 3px solid black;
+            outline-offset: 6px;
+            border: 2px solid sienna;
+            /* outline follows border radius */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a Box
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nulla, accusantium eveniet odio veniam magni dolore. Neque harum, quisquam nesciunt, nulla illo necessitatibus ut, debitis quo totam laudantium nihil beatae.
+        </p>
+    </div>
+</body>
+</html>
